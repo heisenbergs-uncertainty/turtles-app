@@ -1,0 +1,23 @@
+# General
+*.log
+*.env
+.DS_Store
+/bin/
+/dist/
+/build/
+
+# Backend (Go)
+backend/tmp/
+backend/vendor/
+backend/*.exe
+backend/*.test
+
+# Frontend (React)
+frontend/node_modules/
+frontend/.env.local
+frontend/build/
+
+# Electron
+electron/node_modules/
+electron/out/
+electron/.env
